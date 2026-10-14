@@ -1,0 +1,29 @@
+name: jarvis
+description: Jarvis Flutter Android assistant
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.12.0 <4.0.0"
+  flutter: ">=3.44.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^1.6.0
+  camera: ^0.12.1
+  permission_handler: ^13.0.2
+  url_launcher: ^6.3.3
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
